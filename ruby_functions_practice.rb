@@ -51,3 +51,7 @@ def number_to_short_month_name (month_number)
       "Sep"
     end
 end
+
+def cube (length, width, height)
+  return length * width * height
+end

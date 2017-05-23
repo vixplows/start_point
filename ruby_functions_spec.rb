@@ -65,13 +65,14 @@ class Functions_Practice < MiniTest::Test
   end
 
 
-
 #   #Further
 
-#   #Given the length of a side of a cube calculate the volume
-#   def test_volume_of_cube()
-#     #add test code here
-#   end
+  #Given the length of a side of a cube calculate the volume
+  def test_volume_of_cube()
+    #add test code here
+    cube_result = cube( 4, 5, 7 )
+    assert_equal( 140, cube_result )
+  end
 
 #   #Given the radius of a sphere calculate the volume
 #   def test_volume_of_sphere()
