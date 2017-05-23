@@ -61,7 +61,6 @@ def sphere (radius)
 end
 
 def in_celsius (farenheit)
-
   return (farenheit - 32.to_f) * (5.to_f / 9.to_f)
 end
 
