@@ -60,8 +60,8 @@ def sphere (radius)
   return  (4 * Math::PI * (radius * radius * radius) / 3).round(1)
 end
 
-def in_celsius (farenheit)
-  return (farenheit - 32.to_f) * (5.to_f / 9.to_f)
+def in_celsius (fahrenheit)
+  return (fahrenheit - 32.to_f) * (5.to_f / 9.to_f)
 end
 
 
