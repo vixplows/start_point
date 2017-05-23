@@ -56,6 +56,12 @@ def cube (length)
   return length * length * length
 end
 
-# def sphere_volume ()
+def sphere (radius)
+  return  (4 * Math::PI * (radius * radius * radius) / 3).round(1)
+end
 
-# end
+
+
+
+
+
