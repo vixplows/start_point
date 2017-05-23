@@ -52,6 +52,10 @@ def number_to_short_month_name (month_number)
     end
 end
 
-def cube (length, width, height)
-  return length * width * height
+def cube (length)
+  return length * length * length
 end
+
+# def sphere_volume ()
+
+# end
